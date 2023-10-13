@@ -12,16 +12,16 @@ Para empezar a realizar el Born2beroot deberemos comenzar creando una nueva carp
 
 [1 - Descargar la iso de la maquina.](./Documentation/1%20-%20Descargar%20la%20iso%20de%20la%20maquina.md)
 
-[2 - Instalacion Maquina Virtual.](./Documentation/2%20-%20Instalacion%20Maquina%20Virtual.md)
+[2 - Instalacion Maquina Virtual.](./Documentation/2%20-%20Instalacion%20Maquina%20Virtual/2%20-%20Instalacion%20Maquina%20Virtual.md)
 
-[3 - Instalacion Debian](./Documentation/3%20-%20Instalacion%20Debian.md)
+[3 - Instalacion Debian](./Documentation/3%20-%20Instalacion%20Debian/3%20-%20Instalacion%20Debian.md)
 
-[4 - Configuracion de la Maquina Virtual](./Documentation/4%20-%20Configuracion%20de%20la%20Maquina%20Virtual.md)
+[4 - Configuracion de la Maquina Virtual](./Documentation/4%20-%20Configuracion%20de%20la%20Maquina%20Virtual/4%20-%20Configuracion%20de%20la%20Maquina%20Virtual.md)
 
-[5 - Script](./Documentation/5%20-%20Script.md)
+[5 - Script](./Documentation/5%20-%20Script/5%20-%20Script.md)
 
-[6 - Crontab](./Documentation/6%20-%20Crontab.md)
+[6 - Crontab](./Documentation/6%20-%20Crontab/6%20-%20Crontab.md)
 
-[7 - Bonuses Prometheus & Grafana](./Documentation/7%20-%20Bonuses%20Prometheus%20&%20Grafana.md)
+[7 - Bonuses Prometheus & Grafana](./Documentation/7%20-%20Bonuses%20Prometheus%20%26%20Grafana/7%20-%20Bonuses%20Prometheus%20&%20Grafana.md)
 
-[8 - Signature.txt](./Documentation/8%20-%20Signature.md)
+[8 - Signature.txt](./Documentation/8%20-%20Signature/8%20-%20Signature.md)
