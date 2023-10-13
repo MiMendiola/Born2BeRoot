@@ -6,7 +6,7 @@ Esta parte es una de las mas importantes ya que tendras que explicar cada comand
 
 Para ver la arquitectura del SO y su version utilizamos `uname —all` o `uname -a`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_6.25.31_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_6.25.31_PM.png)
 
  
 
@@ -16,7 +16,7 @@ Ahora usaremos el fichero `/proc/cpuinfo` donde nos proporcionara toda la inform
 
 Y despues haremos lo mismo para mostrar los nucleos virutales usando `grep -c “processor” /proc/cpuinfo` para mostrarnos el contador de los virtuales.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_6.33.09_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_6.33.09_PM.png)
 
  
 
@@ -32,7 +32,7 @@ La linea de comandos final sera `free —mega | awk ‘$1 == “Mem:” {print $
 
 `free —mega | awk ‘$1 == “Mem:” {printf("%.2f"), $3/$2*100}’` y con este sabremos el porcentaje de memoria usada en total
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_9.16.36_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_9.16.36_PM.png)
 
  
 
@@ -50,7 +50,7 @@ Y por ultimo usamos `awk ‘{memory_use += $3} END {print memory_use}’` para s
 
 Quedando asi: `df -m | grep “/dev/” | grep -v “/boot/” | awk ‘{memory_use += $3} END {print memory_use}’`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_9.42.05_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_9.42.05_PM.png)
 
  
 
@@ -60,7 +60,7 @@ Usaremos `awk ‘{mem_res += $2} END {printf (%.1fGb), mem_res/1024}’` para su
 
 Quedando asi: `df -m | grep “/dev/” | grep -v “/boot/” | awk ‘{mem_res += $2} END {printf (%.0fGb), mem_res/1024}’`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_9.43.49_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_9.43.49_PM.png)
 
  
 
@@ -68,7 +68,7 @@ Por ultimo deberemos mostrar el porcentaje de la memoria usada, utilizando los d
 
 Usaremos `awk ‘{mem_res += $2} {mem_use += $3} END {printf ("(%d%%)"), mem_use/mem_res*100’` para sacar la segunda palabra(total) en mem_res y despues la tercera palabra(usado) en mem_use y despues tenemos que sacar el procentaje de la memoria total usada.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.00.26_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.00.26_PM.png)
 
  
 
@@ -82,7 +82,7 @@ Despues mostraremos la linea 15 la cual nos muestra el uso de la memoria disponi
 
 Por ultimo guardaremos el resultado en % usando `expr 100 - vmstat 1 5 | tail -1 | awk '{print $15}'`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.21.24_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.21.24_PM.png)
 
  
 
@@ -90,7 +90,7 @@ Por ultimo guardaremos el resultado en % usando `expr 100 - vmstat 1 5 | tail -1
 
 Para saber la hora y fecha de reinicio usaremos `who -b` con el que veremos el ultimo arranque de sistema. Ahora haremos un filtro de informacion usando de nuevo awk para ver si la primera file es igual a “system” y mostraremos la tercera fila que es la fecha y la cuarta fila que es la hora: `awk ‘$1 == “system” {print $3 “ ” $4}’`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.26.13_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.26.13_PM.png)
 
  
 
@@ -102,7 +102,7 @@ Para ver si LVM esta activo usaremos `lsblk`, que muestra informacion sobre los 
 
 Asi quedaria nuestro if: `if [ $(lsblk | grep -c lvm) -gt 0 ];then echo yes; else echo no; fi`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.36.17_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.36.17_PM.png)
 
  
 
@@ -114,7 +114,7 @@ Por ulitmo contaremos el numero de lineas de conexiones establecidas con un `gre
 
 Quedando asi: `ss -ta | grep -c ESTAB`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.42.32_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.42.32_PM.png)
 
  
 
@@ -124,7 +124,7 @@ Poniendo `users` nos da el nombre de todos los usuarios, y añadiendo `wc -w`.
 
 Quedando: `users | wc -w`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.44.59_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.44.59_PM.png)
 
  
 
@@ -134,7 +134,7 @@ Para obtener la direccion host usaremos `hostname -I`.
 
 Y para obtener la ip usaremos ip link que nos muestra las interfaces de las redes y utilizaremos grep para seleccionar la seccion que deseamos en este caso ether y seleccionamos que nos muestre la segunda linea quedando: `ip link | grep “link/ether” | awk ‘{print $2}’`.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.49.30_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.49.30_PM.png)
 
  
 
@@ -144,7 +144,7 @@ Usaremos `journalctl` que recopila y administra los registros del sistema y filt
 
 Para comprobar podemos hacer otro comando con sudo y ver la diferencia.
 
-![ ](./5%20-%20Script/Screen_Shot_2023-10-09_at_10.57.09_PM.png)
+![ ](./Screen_Shot_2023-10-09_at_10.57.09_PM.png)
 
  
 
@@ -214,10 +214,10 @@ wall "	Architecture: $arch
 
 De esta forma se veria en el script:
 
-![Screen Shot 2023-10-10 at 8.22.03 PM.png](./5%20-%20Script/Screen_Shot_2023-10-10_at_8.22.03_PM.png)
+![Screen Shot 2023-10-10 at 8.22.03 PM.png](./Screen_Shot_2023-10-10_at_8.22.03_PM.png)
 
-![Screen Shot 2023-10-09 at 11.37.01 PM.png](./5%20-%20Script/Screen_Shot_2023-10-09_at_11.37.01_PM.png)
+![Screen Shot 2023-10-09 at 11.37.01 PM.png](./Screen_Shot_2023-10-09_at_11.37.01_PM.png)
 
 Y asi se veria el script ejecutado.
 
-![Screen Shot 2023-10-09 at 11.33.44 PM.png](./5%20-%20Script/Screen_Shot_2023-10-09_at_11.33.44_PM.png)
+![Screen Shot 2023-10-09 at 11.33.44 PM.png](./Screen_Shot_2023-10-09_at_11.33.44_PM.png)

@@ -6,7 +6,7 @@ Para configurar este archivo deberemos usar `sudo crontab -u root -e`.
 
 Y añadiremos `*/10 * * * * sh /ruta del script` para que se ejecute el script cada 10 min.
 
-![ ](./6%20-%20Crontab/Screen_Shot_2023-10-10_at_8.13.21_PM.png)
+![ ](./Screen_Shot_2023-10-10_at_8.13.21_PM.png)
 
 Funcionamiento de cada parametro:
 
