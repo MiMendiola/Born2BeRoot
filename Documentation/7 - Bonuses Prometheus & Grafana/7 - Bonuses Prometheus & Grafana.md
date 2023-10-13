@@ -331,13 +331,13 @@ Para comenzar a usar ete servicio necesitaremos añadir una configuracion extra 
     WantedBy=multi-user.target
     ```
     
-    - The `Wants` and `After` options must be set to `network-online.target`.
-    - The `User` and `Group` fields must both be set to `prometheus`.
-    - The `ExecStart` parameter explains where to find the `prometheus` executable and defines the default options.
-    - The `config.file` option defines the location of the Prometheus configuration file as `/etc/prometheus/prometheus.yml`.
-    - `storage.tsdb.path` tells Prometheus to store application data in the `/var/lib/prometheus/` directory.
-    - `web.listen-address` is set to `0.0.0.0:9090`, allowing Prometheus to listen for connections on all network interfaces.
-    - The `web.enable-lifecycle` option allows users to reload the configuration file without restarting Pro
+    - El `Wants` y `After` tiene que ser equivalente a `network-online.target`.
+    - El `User` y `Group` tienen que estar establecidos como `prometheus`.
+    - El `ExecStart` explica donde encontrar el ejecutable de `prometheus` y define la opcion por defecto.
+    - El `config.file` define la localizacion del archivo de configuracion de Prometheus en `/etc/prometheus/prometheus.yml`.
+    - `storage.tsdb.path` dice a Prometheus donde guardar la informacion en el directorio `/var/lib/prometheus/`.
+    - `web.listen-address` esta establecido como `0.0.0.0:9090`, permitiendo Prometheus escuchar als conexiones de todas las interfaces de red.
+    - La opcion `web.enable-lifecycle` permite al usuario recargar la configuracion sin resetearlo.
         
         ![ ](./Screen_Shot_2023-10-11_at_4.19.13_PM.png)
         
