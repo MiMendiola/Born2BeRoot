@@ -1,0 +1,27 @@
+# Born2beroot
+
+Para empezar a realizar el Born2beroot deberemos comenzar creando una nueva carpeta donde tendremos suficiente espacio para poder realizar el proyecto.
+
+1. Deberemos llegar a la direccion `/sgoinfre/students/` donde crearemos una carpeta con nuestro login con `mkdir`.
+2. Tras esto cambiaremos los permisos de nuestra carpeta con `chmod 700 user`.
+3. ***(Paso Opcional)*** Podremos [cambiar el directorio](./Born2beroot/Tipos%20de%20Particiones.md) de nuestro terminal iTerm.
+
+[Cambio de directorio de iTerm](./Documentation/Cambio%20de%20directorio%20de%20iTerm.md)
+
+[Tipos de Particiones](./Documentation/Tipos%20de%20Particiones.md)
+
+[1 - Descargar la iso de la maquina.](./Documentation/1%20-%20Descargar%20la%20iso%20de%20la%20maquina.md)
+
+[2 - Instalacion Maquina Virtual.](./Documentation/2%20-%20Instalacion%20Maquina%20Virtual.md)
+
+[3 - Instalacion Debian](./Documentation/3%20-%20Instalacion%20Debian.md)
+
+[4 - Configuracion de la Maquina Virtual](./Documentation/4%20-%20Configuracion%20de%20la%20Maquina%20Virtual.md)
+
+[5 - Script](./Documentation/5%20-%20Script.md)
+
+[6 - Crontab](./Documentation/6%20-%20Crontab.md)
+
+[7 - Bonuses Prometheus & Grafana](./Documentation/7%20-%20Bonuses%20Prometheus%20&%20Grafana.md)
+
+[8 - Signature.txt](./Documentation/8%20-%20Signature.md)
