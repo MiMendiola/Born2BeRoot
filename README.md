@@ -36,5 +36,5 @@ Para empezar a realizar el Born2beroot deberemos comenzar creando una nueva carp
 ## Contacto
 Si tienes alguna pregunta, sugerencia o comentario sobre Born2BeRoot, no dudes en ponerte en contacto conmigo:
 
-- Correo Electrónico: <a href="mailto:mglmendiol@gmail.com" style="text-decoration: none;color:#fff">mglmendiol@gmail.com</a>
-- LinkedIn: <a href="https://www.linkedin.com/in/mimendiola/" style="text-decoration: none;color:#fff;">https://www.linkedin.com/in/mimendiola/</a>
+- Correo Electrónico: <a href="mailto:mglmendiol@gmail.com" style="text-decoration: none; color:#fff">mglmendiol@gmail.com</a>
+- LinkedIn: <a href="https://www.linkedin.com/in/mimendiola/" style="text-decoration: none; color:#fff;">https://www.linkedin.com/in/mimendiola/</a>
