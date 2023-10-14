@@ -5,10 +5,9 @@
 ![Versión](https://img.shields.io/badge/Versión-1.0-green)
 
 Este proyecto crearemos una maquina virtual utilizando la una aplicacion de virtualizacion, en nuestro caso usaremos `Virtual Box`. <br>
-Con este proyecto aprenderemos las cosas mas basicas de la creacion de una maquina y asi al final podremos ser capaz de configurar nuestro propio sistema operativo utilizando unas reglas configuradas por nosotros mismos.<br><br>
+Con este proyecto aprenderemos las cosas mas basicas de la creacion de una maquina y asi al final podremos ser capaz de configurar nuestro propio sistema operativo utilizando unas reglas configuradas por nosotros mismos.
 
 ---
-<br>
 
 ## Tabla de Contenidos
 
@@ -23,10 +22,7 @@ Con este proyecto aprenderemos las cosas mas basicas de la creacion de una maqui
 7. [Bonuses Prometheus & Grafana](./Documentation/7%20-%20Bonuses%20Prometheus%20%26%20Grafana/7%20-%20Bonuses%20Prometheus%20&%20Grafana.md)
 8. [Signature.txt](./Documentation/8%20-%20Signature/8%20-%20Signature.md)
 
-<br>
-
 ---
-<br>
 
 ## Requisitos
 
