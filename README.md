@@ -12,12 +12,12 @@ With this project, we will learn the most basic aspects of creating a virtual ma
 
 ## Table of Contents
 
-- [Cambio de directorio de iTerm](./Documentation/en/Cambio%20de%20directorio%20de%20iTerm/Cambio%20de%20directorio%20de%20iTerm.md)
-- [Tipos de Particiones](./Documentation/en/Tipos%20de%20Particiones.md)
-1. [Descargar la iso de la maquina.](./Documentation/en/1%20-%20Descargar%20la%20iso%20de%20la%20maquina.md)
-2. [Instalacion Maquina Virtual.](./Documentation/en/2%20-%20Instalacion%20Maquina%20Virtual/2%20-%20Instalacion%20Maquina%20Virtual.md)
-3. [Instalacion Debian](./Documentation/en/3%20-%20Instalacion%20Debian/3%20-%20Instalacion%20Debian.md)
-4. [Configuracion de la Maquina Virtual](./Documentation/en/4%20-%20Configuracion%20de%20la%20Maquina%20Virtual/4%20-%20Configuracion%20de%20la%20Maquina%20Virtual.md)
+- [Changing iTerm Directory](./Documentation/en/Changing%20iTerm%20Directory/Changing%20iTerm%20Directory.md)
+- [Partition Types](./Documentation/en/Partition%20Types.md)
+1. [Downloading the Machine ISO.](./Documentation/en/1%20-%20Downloading%20the%20Machine%20ISO.md)
+2. [Virtual Machine Installation.](./Documentation/en/2%20-%20Virtual%20Machine%20Installation/2%20-%20Virtual%20Machine%20Installation.md)
+3. [Debian Installation](./Documentation/en/3%20-%20Debian%20Installation/3%20-%20Debian%20Installation.md)
+4. [Virtual Machine Configuration](./Documentation/en/4%20-%20Virtual%20Machine%20Configuration/4%20-%20Virtual%20Machine%20Configuration.md)
 5. [Script](./Documentation/en/5%20-%20Script/5%20-%20Script.md)
 6. [Crontab](./Documentation/en/6%20-%20Crontab/6%20-%20Crontab.md)
 7. [Bonuses Prometheus & Grafana](./Documentation/en/7%20-%20Bonuses%20Prometheus%20%26%20Grafana/7%20-%20Bonuses%20Prometheus%20&%20Grafana.md)
