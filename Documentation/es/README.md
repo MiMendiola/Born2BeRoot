@@ -2,7 +2,7 @@
 
 ![Project](https://img.shields.io/badge/Project-Born2BeRoot-blue)
 ![Licence](https://img.shields.io/badge/Licence-MIT-orange)
-[![Language](https://img.shields.io/badge/Language-English-purple)](https://github.com/MiMendiola/Born2BeRoot/tree/main#born2beroot)
+[![Change_Language](https://img.shields.io/badge/Change_Language-English-purple)](https://github.com/MiMendiola/Born2BeRoot/tree/main#born2beroot)
 ![Version](https://img.shields.io/badge/Version-1.0-green)
 
 Este proyecto crearemos una maquina virtual utilizando la una aplicacion de virtualizacion, en nuestro caso usaremos `Virtual Box`. <br>
