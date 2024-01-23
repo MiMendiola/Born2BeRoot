@@ -1,9 +1,15 @@
 # Born2BeRoot
 
-![Project](https://img.shields.io/badge/Project-Born2BeRoot-blue)
-![Licence](https://img.shields.io/badge/Licence-MIT-orange)
-[![Cambiar_Idioma](https://img.shields.io/badge/Cambiar_Idioma-Español-purple)](https://github.com/MiMendiola/Born2BeRoot/tree/main/Documentation/es/README.md)
-![Version](https://img.shields.io/badge/Version-1.0-green)
+<div>
+
+  ![Project](https://img.shields.io/badge/Project-Libft-blue)
+  ![Licence](https://img.shields.io/badge/Licence-MIT-orange)
+  ![Version](https://img.shields.io/badge/Version-1.0-green)
+  <a href="https://github.com/MiMendiola/Born2BeRoot/tree/main/Documentation/es/README.md" >
+    <img src="https://img.shields.io/badge/Cambiar_Idioma-Español-purple" align="right">
+  </a>
+
+</div>
 
 In this project we will create a virtual machine using a virtualization application, in our case we will use `Virtual Box`. <br>
 With this project, we will learn the most basic aspects of creating a virtual machine, and by the end, we will be able to configure our own operating system using rules defined by ourselves.
