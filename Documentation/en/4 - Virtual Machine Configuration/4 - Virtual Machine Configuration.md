@@ -136,7 +136,7 @@ To install sudo, first switch to the `root` user using the `su` command with the
 
 ## 4.4 - Configure Strong Password for sudo.
 
-1. Create a file where the password configuration will be stored. Create the file with the command `touch /etc/sudoers.d/config-sudo`.
+1. Create a file where the password configuration will be stored. Create the file with the command `touch /etc/sudoers.d/sudo_config`.
     
     ![ ](./Screen_Shot_2023-10-06_at_6.50.35_PM.png)
     
@@ -148,7 +148,7 @@ To install sudo, first switch to the `root` user using the `su` command with the
     
      
     
-3. Open the file we created earlier using the command `nano /etc/sudoers.d/config-sudo`.
+3. Open the file we created earlier using the command `nano /etc/sudoers.d/sudo_config`.
     
     ![ ](./Screen_Shot_2023-10-06_at_6.53.03_PM.png)
     
